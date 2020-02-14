@@ -48,6 +48,7 @@ li {
 body {
     margin: 0px;
     overflow-x: hidden;
+    background-color: black;
 }
 
 #navicon {
@@ -63,8 +64,9 @@ body {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(4, 23%);
-    grid-template-rows: repeat(44, 100px);
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(10, 6%);
+    /*grid-template-rows: repeat(44, 100px);*/
     word-break: normal;
     scroll-snap-type: y mandatory;
 }
@@ -82,13 +84,15 @@ nav {
 }
 
 header {
-    background-color:black;
-    background-image: url('placeholder2.jpg');
+    background-color: black;
+    background-image: url('placeholder3.png');
+    background-size: contain;
     color: whitesmoke;
+    opacity: 0.5;
     grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-end: 6;
     grid-row-start: 2;
-    grid-row-end: 6;
+    grid-row-end: 7;
     text-align: left;
     padding: 15px;
 }
@@ -98,7 +102,7 @@ main {
     color: black;
     grid-column-start: 1;
     grid-column-end: 5;
-    grid-row-start: 6;
+    grid-row-start: 7;
     grid-row-end: 11;
     padding: 15px;
 }
@@ -120,66 +124,6 @@ main {
     grid-column-end: 5;
     grid-row-start: 16;
     grid-row-end: 17;
-    padding: 15px;
-}
-
-#proj1 {
-    background-color: whitesmoke;
-    color: black;
-    grid-column-start: 1;
-    grid-column-end: 5;
-      grid-row-start: 17;
-    grid-row-end: 21;
-    padding: 15px;
-}
-
-#proj2 {
-    background-color: whitesmoke;
-    color: black;
-    grid-column-start: 1;
-    grid-column-end: 5;
-     grid-row-start: 21;
-    grid-row-end: 25;
-    padding: 15px;
-}
-
-#proj3 {
-    background-color: whitesmoke;
-    color: black;
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 25;
-    grid-row-end: 29;
-    padding: 15px;
-}
-
-#proj4 {
-    background-color: whitesmoke;
-    color: black;
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 29;
-    grid-row-end: 33;
-    padding: 15px;
-}
-
-#proj5 {
-    background-color: whitesmoke;
-    color: black;
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 33;
-    grid-row-end: 37;
-    padding: 15px;
-}
-
-#proj6 {
-    background-color: whitesmoke;
-    color: black;
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 37;
-    grid-row-end: 41;
     padding: 15px;
 }
 
