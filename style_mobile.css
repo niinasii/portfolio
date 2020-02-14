@@ -47,6 +47,7 @@ li {
 
 body {
     margin: 0px;
+    overflow-x: hidden;
 }
 
 #navicon {
@@ -62,14 +63,20 @@ body {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, 100px);
+    grid-template-columns: repeat(4, 23%);
     grid-template-rows: repeat(44, 100px);
+    word-break: normal;
+    scroll-snap-type: y mandatory;
+}
+
+.child {
+    scroll-snap-align: start;
 }
 
 nav {
     background-color: white;
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 2;
 }
@@ -79,7 +86,7 @@ header {
     background-image: url('placeholder2.jpg');
     color: whitesmoke;
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 6;
     text-align: left;
@@ -90,7 +97,7 @@ main {
     background-color: whitesmoke;
     color: black;
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 5;
     grid-row-start: 6;
     grid-row-end: 11;
     padding: 15px;
@@ -100,7 +107,7 @@ main {
     background-color: black;
     color: white;
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 5;
     grid-row-start: 11;
     grid-row-end: 16;
     padding: 15px;
@@ -110,7 +117,7 @@ main {
     background-color: whitesmoke;
     color: black;
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 5;
     grid-row-start: 16;
     grid-row-end: 17;
     padding: 15px;
@@ -120,7 +127,7 @@ main {
     background-color: whitesmoke;
     color: black;
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 5;
       grid-row-start: 17;
     grid-row-end: 21;
     padding: 15px;
@@ -130,7 +137,7 @@ main {
     background-color: whitesmoke;
     color: black;
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 5;
      grid-row-start: 21;
     grid-row-end: 25;
     padding: 15px;
@@ -140,7 +147,7 @@ main {
     background-color: whitesmoke;
     color: black;
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 5;
     grid-row-start: 25;
     grid-row-end: 29;
     padding: 15px;
@@ -150,7 +157,7 @@ main {
     background-color: whitesmoke;
     color: black;
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 5;
     grid-row-start: 29;
     grid-row-end: 33;
     padding: 15px;
@@ -160,7 +167,7 @@ main {
     background-color: whitesmoke;
     color: black;
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 5;
     grid-row-start: 33;
     grid-row-end: 37;
     padding: 15px;
@@ -170,9 +177,9 @@ main {
     background-color: whitesmoke;
     color: black;
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 5;
     grid-row-start: 37;
-    grid-row-end: 42;
+    grid-row-end: 41;
     padding: 15px;
 }
 
@@ -180,8 +187,8 @@ aside {
     background-color: white;
     color: black;
     grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 42;
+    grid-column-end: 5;
+    grid-row-start: 41;
     grid-row-end: 44;
     padding: 15px;
 }
@@ -190,8 +197,15 @@ footer {
     background-color: whitesmoke;
     color: black;
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 5;
     grid-row-start: 44;
     grid-row-end: 45;
     padding: 15px;
+}
+
+div .box {
+    background-color: grey;
+    width: 85%;
+    height: 85%;
+    margin-left: 7.5%;
 }
