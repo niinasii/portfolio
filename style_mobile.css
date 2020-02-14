@@ -8,17 +8,13 @@
     src: url('AldithRegular.ttf');
 }
 
-#aloitusteksti {
-    line-height: 2.0;
-}
-
-#brutal {
+.brutal {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     font-size: 100%;
 }
 
-#pretty {
+.pretty {
     font-family: pretty;
     font-size: 140%;
 }
@@ -26,6 +22,8 @@
 
 h1 {
     font-family: otsikko;
+    padding-bottom: 20px;
+    padding-top: 0px;
 }
 
 h2 {
@@ -36,6 +34,13 @@ h2 {
 }
 
 p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2.0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+li {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -61,7 +66,7 @@ body {
 }
 
 nav {
-    background-color: red;
+    background-color: white;
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 1;
@@ -69,7 +74,8 @@ nav {
 }
 
 header {
-    background-color: silver;
+    background-color: whitesmoke;
+    color: black;
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 2;
@@ -79,43 +85,48 @@ header {
 }
 
 main {
-    background-color: antiquewhite;
+    background-color: silver;
+    color: black;
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 6;
-    grid-row-end: 8;
+    grid-row-end: 11;
     padding: 15px;
 }
 
 #code {
-    background-color: cadetblue;
+    background-color: black;
+    color: white;
     grid-column-start: 1;
     grid-column-end: 4;
-    grid-row-start: 8;
-    grid-row-end: 13;
+    grid-row-start: 11;
+    grid-row-end: 16;
     padding: 15px;
 }
 
 #work {
-    background-color: orangered;
+    background-color: grey;
+    color: white;
     grid-column-start: 1;
     grid-column-end: 4;
-    grid-row-start: 13;
-    grid-row-end: 15;
+    grid-row-start: 16;
+    grid-row-end: 18;
     padding: 15px;
 }
 
 #proj1 {
-    background-color: orange;
+    background-color: silver;
+    color: white;
     grid-column-start: 1;
     grid-column-end: 4;
-      grid-row-start: 15;
-    grid-row-end: 19;
+      grid-row-start: 20;
+    grid-row-end: 24;
     padding: 15px;
 }
 
 #proj2 {
-    background-color: yellow;
+    background-color: silver;
+    color: white;
     grid-column-start: 1;
     grid-column-end: 4;
      grid-row-start: 19;
@@ -124,7 +135,8 @@ main {
 }
 
 #proj3 {
-    background-color: pink;
+    background-color: silver;
+    color: white;
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 23;
@@ -133,7 +145,8 @@ main {
 }
 
 #proj4 {
-    background-color: violet;
+    background-color: silver;
+    color: white;
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 27;
@@ -142,7 +155,8 @@ main {
 }
 
 #proj5 {
-    background-color: brown;
+    background-color: silver;
+    color: white;
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 31;
@@ -151,7 +165,8 @@ main {
 }
 
 #proj6 {
-    background-color: purple;
+    background-color: silver;
+    color: white;
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 35;
@@ -160,7 +175,8 @@ main {
 }
 
 aside {
-    background-color: aquamarine;
+    background-color: white;
+    color: black;
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 39;
@@ -169,7 +185,8 @@ aside {
 }
 
 footer {
-    background-color: burlywood;
+    background-color: whitesmoke;
+    color: black;
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 41;
