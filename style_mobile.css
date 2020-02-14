@@ -8,24 +8,23 @@
     src: url('AldithRegular.ttf');
 }
 
-#aloitusteksti {
-    line-height: 2.0;
-}
-
-#brutal {
+.brutal {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     font-size: 100%;
 }
 
-#pretty {
+.pretty {
     font-family: pretty;
     font-size: 140%;
 }
 
-
 h1 {
     font-family: otsikko;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    font-size: 550%;
+    word-wrap: break-word;
 }
 
 h2 {
@@ -37,10 +36,19 @@ h2 {
 
 p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2.0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
     margin: 0px;
+    overflow-x: hidden;
+    background-color: black;
 }
 
 #navicon {
@@ -56,123 +64,92 @@ body {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, 100px);
-    grid-template-rows: repeat(42, 100px);
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(10, 6%);
+    /*grid-template-rows: repeat(44, 100px);*/
+    word-break: normal;
+    scroll-snap-type: y mandatory;
+}
+
+.child {
+    scroll-snap-align: start;
 }
 
 nav {
-    background-color: red;
+    background-color: white;
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 2;
 }
 
 header {
-    background-color: silver;
+    background-color: black;
+    background-image: url('placeholder3.png');
+    background-size: contain;
+    color: whitesmoke;
+    opacity: 0.5;
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 6;
     grid-row-start: 2;
-    grid-row-end: 6;
+    grid-row-end: 7;
     text-align: left;
     padding: 15px;
 }
 
 main {
-    background-color: antiquewhite;
+    background-color: whitesmoke;
+    color: black;
     grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 6;
-    grid-row-end: 8;
+    grid-column-end: 5;
+    grid-row-start: 7;
+    grid-row-end: 11;
     padding: 15px;
 }
 
 #code {
-    background-color: cadetblue;
+    background-color: black;
+    color: white;
     grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 8;
-    grid-row-end: 13;
+    grid-column-end: 5;
+    grid-row-start: 11;
+    grid-row-end: 16;
     padding: 15px;
 }
 
 #work {
-    background-color: orangered;
+    background-color: whitesmoke;
+    color: black;
     grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 13;
-    grid-row-end: 15;
-    padding: 15px;
-}
-
-#proj1 {
-    background-color: orange;
-    grid-column-start: 1;
-    grid-column-end: 4;
-      grid-row-start: 15;
-    grid-row-end: 19;
-    padding: 15px;
-}
-
-#proj2 {
-    background-color: yellow;
-    grid-column-start: 1;
-    grid-column-end: 4;
-     grid-row-start: 19;
-    grid-row-end: 23;
-    padding: 15px;
-}
-
-#proj3 {
-    background-color: pink;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 23;
-    grid-row-end: 27;
-    padding: 15px;
-}
-
-#proj4 {
-    background-color: violet;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 27;
-    grid-row-end: 31;
-    padding: 15px;
-}
-
-#proj5 {
-    background-color: brown;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 31;
-    grid-row-end: 35;
-    padding: 15px;
-}
-
-#proj6 {
-    background-color: purple;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 35;
-    grid-row-end: 39;
+    grid-column-end: 5;
+    grid-row-start: 16;
+    grid-row-end: 17;
     padding: 15px;
 }
 
 aside {
-    background-color: aquamarine;
+    background-color: white;
+    color: black;
     grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 39;
-    grid-row-end: 41;
+    grid-column-end: 5;
+    grid-row-start: 41;
+    grid-row-end: 44;
     padding: 15px;
 }
 
 footer {
-    background-color: burlywood;
+    background-color: whitesmoke;
+    color: black;
     grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 41;
-    grid-row-end: 43;
+    grid-column-end: 5;
+    grid-row-start: 44;
+    grid-row-end: 45;
     padding: 15px;
+}
+
+div .box {
+    background-color: grey;
+    width: 85%;
+    height: 85%;
+    margin-left: 7.5%;
 }
