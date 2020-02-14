@@ -19,11 +19,12 @@
     font-size: 140%;
 }
 
-
 h1 {
     font-family: otsikko;
     padding-bottom: 20px;
     padding-top: 0px;
+    font-size: 550%;
+    word-wrap: break-word;
 }
 
 h2 {
@@ -62,7 +63,7 @@ body {
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 100px);
-    grid-template-rows: repeat(42, 100px);
+    grid-template-rows: repeat(44, 100px);
 }
 
 nav {
@@ -74,8 +75,9 @@ nav {
 }
 
 header {
-    background-color: whitesmoke;
-    color: black;
+    background-color:black;
+    background-image: url('placeholder2.jpg');
+    color: whitesmoke;
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 2;
@@ -85,7 +87,7 @@ header {
 }
 
 main {
-    background-color: silver;
+    background-color: whitesmoke;
     color: black;
     grid-column-start: 1;
     grid-column-end: 4;
@@ -105,72 +107,72 @@ main {
 }
 
 #work {
-    background-color: grey;
-    color: white;
+    background-color: whitesmoke;
+    color: black;
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 16;
-    grid-row-end: 18;
+    grid-row-end: 17;
     padding: 15px;
 }
 
 #proj1 {
-    background-color: silver;
-    color: white;
+    background-color: whitesmoke;
+    color: black;
     grid-column-start: 1;
     grid-column-end: 4;
-      grid-row-start: 20;
-    grid-row-end: 24;
+      grid-row-start: 17;
+    grid-row-end: 21;
     padding: 15px;
 }
 
 #proj2 {
-    background-color: silver;
-    color: white;
+    background-color: whitesmoke;
+    color: black;
     grid-column-start: 1;
     grid-column-end: 4;
-     grid-row-start: 19;
-    grid-row-end: 23;
+     grid-row-start: 21;
+    grid-row-end: 25;
     padding: 15px;
 }
 
 #proj3 {
-    background-color: silver;
-    color: white;
+    background-color: whitesmoke;
+    color: black;
     grid-column-start: 1;
     grid-column-end: 4;
-    grid-row-start: 23;
-    grid-row-end: 27;
+    grid-row-start: 25;
+    grid-row-end: 29;
     padding: 15px;
 }
 
 #proj4 {
-    background-color: silver;
-    color: white;
+    background-color: whitesmoke;
+    color: black;
     grid-column-start: 1;
     grid-column-end: 4;
-    grid-row-start: 27;
-    grid-row-end: 31;
+    grid-row-start: 29;
+    grid-row-end: 33;
     padding: 15px;
 }
 
 #proj5 {
-    background-color: silver;
-    color: white;
+    background-color: whitesmoke;
+    color: black;
     grid-column-start: 1;
     grid-column-end: 4;
-    grid-row-start: 31;
-    grid-row-end: 35;
+    grid-row-start: 33;
+    grid-row-end: 37;
     padding: 15px;
 }
 
 #proj6 {
-    background-color: silver;
-    color: white;
+    background-color: whitesmoke;
+    color: black;
     grid-column-start: 1;
     grid-column-end: 4;
-    grid-row-start: 35;
-    grid-row-end: 39;
+    grid-row-start: 37;
+    grid-row-end: 42;
     padding: 15px;
 }
 
@@ -179,8 +181,8 @@ aside {
     color: black;
     grid-column-start: 1;
     grid-column-end: 4;
-    grid-row-start: 39;
-    grid-row-end: 41;
+    grid-row-start: 42;
+    grid-row-end: 44;
     padding: 15px;
 }
 
@@ -189,7 +191,7 @@ footer {
     color: black;
     grid-column-start: 1;
     grid-column-end: 4;
-    grid-row-start: 41;
-    grid-row-end: 43;
+    grid-row-start: 44;
+    grid-row-end: 45;
     padding: 15px;
 }
