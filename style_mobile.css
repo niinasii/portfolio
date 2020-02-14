@@ -1,0 +1,178 @@
+@font-face {
+    font-family: pretty;
+    src: url('NellaSue.ttf');
+}
+
+@font-face {
+    font-family: otsikko;
+    src: url('AldithRegular.ttf');
+}
+
+#aloitusteksti {
+    line-height: 2.0;
+}
+
+#brutal {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 100%;
+}
+
+#pretty {
+    font-family: pretty;
+    font-size: 140%;
+}
+
+
+h1 {
+    font-family: otsikko;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 100%;
+    text-align: center;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+#navicon {
+    margin-top: 33px;
+    margin-left: 30px;
+}
+
+/* GRID LAYOUT*/
+
+* {
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(42, 100px);
+}
+
+nav {
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+header {
+    background-color: silver;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    text-align: left;
+    padding: 15px;
+}
+
+main {
+    background-color: antiquewhite;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 8;
+    padding: 15px;
+}
+
+#code {
+    background-color: cadetblue;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 8;
+    grid-row-end: 13;
+    padding: 15px;
+}
+
+#work {
+    background-color: orangered;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 13;
+    grid-row-end: 15;
+    padding: 15px;
+}
+
+#proj1 {
+    background-color: orange;
+    grid-column-start: 1;
+    grid-column-end: 4;
+      grid-row-start: 15;
+    grid-row-end: 19;
+    padding: 15px;
+}
+
+#proj2 {
+    background-color: yellow;
+    grid-column-start: 1;
+    grid-column-end: 4;
+     grid-row-start: 19;
+    grid-row-end: 23;
+    padding: 15px;
+}
+
+#proj3 {
+    background-color: pink;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 23;
+    grid-row-end: 27;
+    padding: 15px;
+}
+
+#proj4 {
+    background-color: violet;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 27;
+    grid-row-end: 31;
+    padding: 15px;
+}
+
+#proj5 {
+    background-color: brown;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 31;
+    grid-row-end: 35;
+    padding: 15px;
+}
+
+#proj6 {
+    background-color: purple;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 35;
+    grid-row-end: 39;
+    padding: 15px;
+}
+
+aside {
+    background-color: aquamarine;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 39;
+    grid-row-end: 41;
+    padding: 15px;
+}
+
+footer {
+    background-color: burlywood;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 41;
+    grid-row-end: 43;
+    padding: 15px;
+}

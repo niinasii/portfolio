@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style_desktop.css"
+        media="only screen and (orientation: landscape) and (min-width: 768px)">
+    <link rel="stylesheet" href="style_desktop.css"
+        media="only screen and (orientation: portrait) and (min-width: 768px)" />
+    <link rel="stylesheet" href="style_tablet.css" media="only screen and (min-width: 481px) and (max-width: 767px)" />
+    <link rel="stylesheet" href="style_mobile.css" media="only screen and (min-width: 0px) and (max-width: 480px)" />
+</head>
+
+<body>
+    <div class="grid">
+        <nav>
+            <picture>
+                <source media="(max-width: 390px)" srcset="mobile_navicon.png">
+                <source media="(max-width: 767px)" srcset="tablet_navicon.png">
+                <img src="desktop_navicon.png" width="35px" height="35px" id="navicon">
+            </picture>
+        </nav>
+        <header>
+            <p id="aloitusteksti">
+                <span id="brutal">Welcome to my portfolio, I am Niina Siitari. I am programmer, designer and
+                    worldbuilder at</span>
+                <span id="pretty">Academic Work/Academy.</span>
+            </p>
+        </header>
+        <main>
+            <h1>About</h1>
+            <p>Former art and crafts instructor (Master of Arts, Univeristy of Lapland) has dreamed & finally swapped to
+                ICT and programming. </p>
+        </main>
+        <section id="code">
+            <h1>Coding</h1>
+            <p>
+                <ul>
+                    <li>HTML5, CSS, JavaScript,</li>
+                    <li>Jquery, ReactJS, AngularJS, VueJS, Bootstrap</li>
+                    <li>PostgreSQL, MongoDB, Mongoose</li>
+                    <li>TDD, Jest</li>
+                    <li>Scrum (Scrum sertificate psm1)</li>
+                    <li>NodeJS</li>
+                    <li>Git (Bash, Desktop, GitHub)</li>
+                    <li>Postman</li>
+                    <li>Visual Code Studio & Adobe Dreamweaver</li>
+                </ul>
+                <ul>
+                    <li>Adobe Photoshop, Indesign, Illustrator</li>
+                    <li>Blender, Unity</li>
+                </ul>
+        </section>
+        <section id="work">
+            <h1>Work</h1>
+        </section>
+        <article id="proj1">
+            <h2>Projekti 1</h2>
+        </article>
+        <article id="proj2">
+            <h2>Projekti 2</h2>
+        </article>
+        <article id="proj3">
+            <h2>Projekti 3</h2>
+        </article>
+        <article id="proj4">
+            <h2>Projekti 4</h2>
+        </article>
+        <article id="proj5">
+            <h2>Projekti 5</h2>
+        </article>
+        <article id="proj6">
+            <h2>Projekti 6</h2>
+        </article>
+        <aside>
+            <p>
+                <h1>Contact</h1>
+            </p>
+        </aside>
+        <footer>
+            <p>
+                <h1>Site</h1>
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+@font-face {
+    font-family: pretty;
+    src: url('NellaSue.ttf');
+}
+
+@font-face {
+    font-family: otsikko;
+    src: url('AldithRegular.ttf');
+}
+
+#aloitusteksti {
+    line-height: 2.0;
+}
+
+#brutal {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 100%;
+}
+
+#pretty {
+    font-family: pretty;
+    font-size: 140%;
+}
+
+
+h1 {
+    font-family: otsikko;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 100%;
+    text-align: center;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: silver;
+}
+
+nav {
+    background-color: red;
+}
+
+section {
+    background-color: yellow;
+}
+
+main {
+    background-color: antiquewhite;
+}
+
+aside {
+    background-color: aquamarine;
+}
+
+footer {
+    background-color: burlywood;
+}
